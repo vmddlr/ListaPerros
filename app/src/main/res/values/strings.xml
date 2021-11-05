@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KonfioExam</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="str_dogs_love">Dogs We Love</string>
+    <string name="str_description">Description</string>
+</resources>

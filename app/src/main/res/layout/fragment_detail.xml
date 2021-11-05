@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.view.DetailFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glH"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".5" />
+
+
+    <TextView
+        android:id="@+id/tvNameDog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/distance_fifteen"
+        android:gravity="center"
+        android:text="@string/str_dogs_love"
+        android:textColor="@color/color_black"
+        android:textStyle="bold"
+        android:textSize="@dimen/txt_size_thirty_five"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/ivDog"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/distance_fifteen"
+        android:src="@drawable/ic_android"
+        app:layout_constraintBottom_toBottomOf="@+id/glH"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNameDog" />
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/txt_size_thirty_five"
+        android:layout_marginEnd="@dimen/txt_size_thirty_five"
+        android:layout_marginTop="@dimen/distance_twenty"
+        android:src="@drawable/ic_android"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/txt_size_twenty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/glH"
+        tools:text="Age: 5" />
+
+    <TextView
+        android:id="@+id/tvTitleDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/txt_size_thirty_five"
+        android:layout_marginEnd="@dimen/txt_size_thirty_five"
+        android:layout_marginTop="@dimen/distance_twenty"
+        android:src="@drawable/ic_android"
+        android:textColor="@color/color_black"
+        android:text="@string/str_description"
+        android:textSize="@dimen/txt_size_twenty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAge"
+        tools:text="Description :" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/txt_size_thirty_five"
+        android:layout_marginEnd="@dimen/txt_size_thirty_five"
+        android:layout_marginTop="@dimen/distance_twenty"
+        android:src="@drawable/ic_android"
+        android:textColor="@color/color_gray"
+        android:textSize="@dimen/txt_size_twenty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleDescription"
+        tools:text="He is much more passive and is the first to suggest to rescue and not eat The Little Pilot" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

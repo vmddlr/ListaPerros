@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="distance_five">5dp</dimen>
+    <dimen name="distance_ten">10dp</dimen>
+    <dimen name="distance_fifteen">15dp</dimen>
+    <dimen name="distance_twenty">20dp</dimen>
+    <dimen name="distance_two_hundred_and_thirty">230dp</dimen>
+
+
+    <!--    text size-->
+    <dimen name="txt_size_fifteen">15sp</dimen>
+    <dimen name="txt_size_eighteen">18sp</dimen>
+    <dimen name="txt_size_twenty">20sp</dimen>
+    <dimen name="txt_size_twenty_five">25sp</dimen>
+    <dimen name="txt_size_thirty">30sp</dimen>
+    <dimen name="txt_size_thirty_five">35sp</dimen>
+
+</resources>
